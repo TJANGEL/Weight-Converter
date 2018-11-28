@@ -9,15 +9,44 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="display-4 text-center">
+                <h1 class="display-4">
                     Weight Converter
                 </h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3>Grams:</h3>
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-block">
+                            <h3>Kilograms:</h3>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-block">
+                            <h3>Ounces:</h3>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
