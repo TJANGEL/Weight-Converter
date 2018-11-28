@@ -3,3 +3,12 @@ body {
     background: #333;
     color: #fff;
 }
+
+.card {
+    color: #ccc;
+}
+
+.card-block {
+    background: darkslateblue;
+    padding: 10px;
+}

@@ -4,7 +4,7 @@ document.getElementById('lbsInput').addEventListener('input', function () {
     
     document.getElementById('output').style.visibility = 'visible';
 
-    let lbs = e.target.value;
+    let lbs = event.target.value;
     
     // convert to grams
     document.getElementById('gramsOutput').innerHTML = lbs/0.0022046;
